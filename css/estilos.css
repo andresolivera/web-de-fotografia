@@ -1,0 +1,10 @@
+.contenedor {
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px,0, #02010a;
+}
