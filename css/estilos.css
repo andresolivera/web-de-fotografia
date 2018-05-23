@@ -1,10 +1,21 @@
-.contenedor {
+body{
+  background-color: #02010a;
+}
+header{
   background-color: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-family: 'dancing Script';
 }
 header h1{
   text-align: left;
   color: white;
-  text-shadow: 2px,0, #02010a;
+  text-shadow: 2px 2px #02010a;
+  font-size: 30px;
+}
+.contenedor{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row warp;
 }
