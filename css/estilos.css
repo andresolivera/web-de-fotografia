@@ -24,135 +24,139 @@ header {
 .i1 img{
   align-items: center;
 }
-@media (max-width:900px) {
-	.contenedor{
-		margin: auto;
-		padding-bottom: 15px;
-		}
-	#titulo {
-		width: 100%;
-		text-align: center;
-		}
-	.navegacion {
-		width: 100%;
-		text-align: center;
-	}
-	.enlace1, .enlace2, .enlace3 {
-		padding: 5px;
-		font-size: 20px;
-	}
-	#secundarias {
-	 display: grid;
-	 background-color: #d5c75f;
-	 border: 1px;
- }
- .i1 {
-   padding: 2vh;
-   width: 90%;
-   display: block;
-   margin: auto;
-   }
+/*Version para mobil*/
+          @media (max-width:900px) {
+	          .contenedor{
+	            margin: auto;
+		          padding-bottom: 15px;
+		        }
+          	#titulo {
+          		width: 100%;
+        	  	text-align: center;
+        		}
+	          .menu {
+		          width: 100%;
+		          text-align: center;
+	          }
+	          .enlace1, .enlace2, .enlace3 {
+          	  padding: 5px;
+          	  font-size: 20px;
+            }
+          	#secundarias {
+            	display: grid;
+              background-color: #d5c75f;
+              border: 1px;
+            }
+             .i1 {
+              padding: 2vh;
+              width: 90%;
+              display: block;
+              margin: auto;
+            }
+             .i2, .r4 {
+              width: 60%;
+              padding-left: 20%;
+              padding-top: 5vh;
+              padding-bottom: 5vh;
+              display: grid;
+            }
+             footer {
+              width: 100%;
+            }
+           	#galeria img {
+	           	width: 80%;
+	           	padding-left: 10%;
+            	padding-right: 10%;
+            	padding-top: 5vh;
+            }
+          	.ef6 {
+          		padding-bottom: 5vh;
+          	}
+          }
+/*Version para Desktop*/
+          @media (min-width: 900px) {
+	          .contenedor {
+            	width: 900px;
+            	margin-left: auto;
+	           	margin-right: auto;
+          	}
+            #titulo {
+              text-align: left;
+              width: 65%;
+              text-indent: 10px;
+            }
+          	#central {
+              width: 900px;
+              margin-left: auto;
+              margin-right: auto;
+	          }
+            .i1 {
+	          	padding: 2vh;
+	          	width: 90%;
+              display: block;
+              margin: auto;
+		        }
+	          .menu {
+	          	margin-right: auto;
+	           	text-align: right;
+	          	width: 30%;
+	          	margin-top: auto;
+	          	margin-bottom: auto;
+	          	font-size: 20px;
+	        	}
+	        	.enlace1, .enlace2, .enlace3 {
+	          	padding: 5px;
+	          }
+	          #secundarias {
+              display: -webkit-flex;
+	            display: flex;
+	            background-color: #d5c75f;
+              border: 1px;
+            }
+            .i2, .r4 {
+            	width: 70%;
+            	padding: 5vh 5vw;
+             	margin-bottom: 1vh;
+              display: -webkit-flex;
+            	display: flex;
+            	box-shadow: #82c3a6;
+              border: 2px;
+            }
+            footer {
+           		width: 900px;
+           		margin-left: auto;
+ 	          	margin-right: auto;
+           	}
 
- .i2, .r4 {
- width: 60%;
- padding-left: 20%;
- padding-top: 5vh;
- padding-bottom: 5vh;
- display: grid;
- }
- footer {
-   width: 100%;
-  }
-	#galeria img {
-		width: 80%;
-		padding-left: 10%;
-		padding-right: 10%;
-		padding-top: 5vh;
-	}
-	.ef6 {
-		padding-bottom: 5vh;
-	}
+            #footer ul {
+              display: -webkit-flex;
+              display: flex;
+              width: 100%;
+            }
+            .columna1, .columna2, .columna3, .columna4 {
+              padding-left: 0.3%;
+              margin-right: auto;
+            }
+            .ef1,.ef2,.ef3,.ef4,.ef5,.ef6 {
+		        	width: 30%;
+		        	padding-top: 1.5%;
+	        		padding-bottom: 1.5%;
+	        	}
+	        	.ef1, .ef4 {
+		        	padding-left: 2%;
+	        	}
+	        	.ef4, .ef6 {
+		        	padding-right: 2%;
+	        	}
+	        	.ef1, .ef2, .ef4, .ef5 {
+	        		padding-right: 2.5%;
+	        	}
+          }
+header a:link {
+  text-decoration:underline;
+  color: inherit;
 }
-@media (min-width: 900px) {
-	  .contenedor {
-  	width: 900px;
-  	margin-left: auto;
-	 	margin-right: auto;
-  	}
-  #titulo {
-    text-align: left;
-    width: 65%;
-    text-indent: 10px;
-    }
-	#central {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-	}
-  .i1 {
-		padding: 2vh;
-		width: 90%;
-    display: block;
-    margin: auto;
-		}
-
-	.navegacion {
-		margin-right: auto;
-		text-align: right;
-		width: 30%;
-		margin-top: auto;
-		margin-bottom: auto;
-		font-size: 20px;
-		}
-		.enlace1, .enlace2, .enlace3 {
-		padding: 5px;
-	}
-
-	#secundarias {
-	 display: flex;
-	 background-color: #d5c75f;
-	 border: 1px;
- }
- .i2, .r4 {
-	width: 70%;
-	padding: 5vh 5vw;
- 	margin-bottom: 1vh;
-	display: flex;
-	box-shadow: #82c3a6;
-  border: 5px;
- }
-  footer {
- 		width: 900px;
- 		margin-left: auto;
- 		margin-right: auto;
- 	}
-
-  #footer ul {
-    display: flex;
-    width: 100%;
-  }
-  .columna1, .columna2, .columna3, .columna4 {
-    padding-left: 0.3%;
-    margin-right: auto;
-    }
-
-		.ef1,.ef2,.ef3,.ef4,.ef5,.ef6 {
-			width: 30%;
-			padding-top: 1.5%;
-			padding-bottom: 1.5%;
-		}
-		.ef1, .ef4 {
-			padding-left: 2%;
-		}
-		.ef4, .ef6 {
-			padding-right: 2%;
-		}
-		.ef1, .ef2, .ef4, .ef5 {
-			padding-right: 2.5%;
-		}
-}
-
-header a:link, a:visited {
+header a:visited {
  text-decoration:none;
  color: inherit;
 }
@@ -172,16 +176,15 @@ footer a:link, a:visited {
 	-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
 	transform: rotate(10deg);
 	transition-duration: 0.8s;
+  border: 2px solid #82c3a6;
 	}
-
-
 	.r4:hover {
 	-ms-transform: translate(5px,20px); /* IE 9 */
 	-webkit-transform: transalate(5px,20px); /* Chrome, Safari, Opera */
 	transform: translate(5px,20px);
 	transition-duration: 0.8s;
+  border: 2px solid #82c3a6;
 }
-
 	.ef1{
 	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
 	filter: blur(10px);
@@ -203,7 +206,6 @@ footer{
   margin-bottom: 1vh;
   padding-bottom: 1vh;
 }
-
 li, ul {
   list-style: none;
 }
@@ -217,7 +219,6 @@ footer .columnas {
   padding-top: 0.8vw;
   padding-bottom: 0.8vw;
 }
-
 							@keyframes slide {
 								0% {
 									margin-top: 150%;
